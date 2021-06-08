@@ -11,7 +11,6 @@ fetch(url)
 })
 
 function loadingData(record){
-    console.log(record)
     let location = record.locations[0].location
     for(let i=0; i<location.length; i++){
 
