@@ -49,14 +49,14 @@ function loadingData(record){
             labelSpan.textContent = location[i].locationName
             // adding table content
             weather_li_title.textContent = location[i].locationName + "天氣預報";
-            D_TN_Description.textContent = location[i].weatherElement[8].description + " : " + location[i].weatherElement[8].time[6].elementValue[0].value + location[0].weatherElement[8].time[6].elementValue[0].measures;
-            D_TX_Description.textContent = location[i].weatherElement[12].description + " : " + location[i].weatherElement[12].time[6].elementValue[0].value + location[0].weatherElement[12].time[6].elementValue[0].measures;
-            UVI_Description.textContent = location[i].weatherElement[9].description + " : "  + location[i].weatherElement[9].time[6].elementValue[0].value + "、"  + location[0].weatherElement[9].time[6].elementValue[1].value;
-            WD_Description.textContent = location[i].weatherElement[13].description + " : "  + location[i].weatherElement[13].time[6].elementValue[0].value + location[0].weatherElement[13].time[6].elementValue[0].measures;
-            T_Description.textContent = location[i].weatherElement[1].description + " : "  + location[i].weatherElement[1].time[6].elementValue[0].value + location[0].weatherElement[1].time[6].elementValue[0].measures;
+            D_TN_Description.textContent = location[i].weatherElement[8].description + " : " + location[i].weatherElement[8].time[0].elementValue[0].value + location[0].weatherElement[8].time[0].elementValue[0].measures;
+            D_TX_Description.textContent = location[i].weatherElement[12].description + " : " + location[i].weatherElement[12].time[0].elementValue[0].value + location[0].weatherElement[12].time[0].elementValue[0].measures;
+            UVI_Description.textContent = location[i].weatherElement[9].description + " : "  + location[i].weatherElement[9].time[0].elementValue[0].value + "、"  + location[0].weatherElement[9].time[0].elementValue[1].value;
+            WD_Description.textContent = location[i].weatherElement[13].description + " : "  + location[i].weatherElement[13].time[0].elementValue[0].value + location[0].weatherElement[13].time[0].elementValue[0].measures;
+            T_Description.textContent = location[i].weatherElement[1].description + " : "  + location[i].weatherElement[1].time[0].elementValue[0].value + location[0].weatherElement[1].time[0].elementValue[0].measures;
             weather_Description.textContent = "天氣綜合描述 :";
             weather_Description.appendChild(weather_Div)
-            weather_Div.textContent = location[10].weatherElement[10].description + " : "  + location[i].weatherElement[10].time[6].elementValue[0].value;
+            weather_Div.textContent = location[10].weatherElement[10].description + " : "  + location[i].weatherElement[10].time[0].elementValue[0].value;
         }
     }
 }

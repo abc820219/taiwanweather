@@ -11,6 +11,7 @@ fetch(url)
 })
 
 function loadingData(record){
+    console.log(record)
     let location = record.locations[0].location
     for(let i=0; i<location.length; i++){
 
@@ -40,6 +41,6 @@ function loadingData(record){
         weather_li_one.textContent = "時間 : 早上六點~下午六點"
         weather_li_two.textContent = "天氣預報綜合描述  :" 
         weather_li_two.appendChild(weather_Div);
-        weather_Div.textContent =location[i].weatherElement[10].time[6].elementValue[0].value
+        weather_Div.textContent =location[i].weatherElement[10].time[0].elementValue[0].value
     }
 }
