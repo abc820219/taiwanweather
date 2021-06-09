@@ -31,9 +31,11 @@ input {
     border-radius: 15px;
     margin-top: 15px;
     transition: transform 0.5s;
-}
-.weather-card {
     margin: 1.65%;
+}
+
+.weather-card ul {
+    height: 100%;
 }
 
 .weather-card-title {
