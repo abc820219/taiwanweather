@@ -16,7 +16,7 @@ HOST -> fork -> master -> pull request -> merge
 -瀚文<br>
 同學很nice,合作起來非常順利。 <br>
 -Neo<br>
-
+第一次體驗跟其他人分工合作處理專案，有感受到置身在一個團隊裡一份子的感覺，非常的好玩、有趣，而合作同組夥伴也很厲害，非常棒。 讚
 
 
 github page <br>
